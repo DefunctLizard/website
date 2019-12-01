@@ -9,6 +9,7 @@
         <meta name="description" content="How to connect to the Defunct Shell Server website.">
         <title>How to Connect</title>
         <link rel="stylesheet" href="/mainstyle.css">
+	<link rel="stylesheet" href="/media-queries.css">
     </head>
     <body>
         <div class="container">
@@ -32,6 +33,27 @@
 		<h3>SSH Clients</h3>
 		<p>There are many SSH clients out there, but the one you should use depends on your needs.</p>	
 
+
+		<h4>Web Client</h4>
+		<p>The web client is by far the easiest way to access the server. Anyone with a JavaScript-enabled web browser can access the server using it.<p>
+		
+		<p>Pros</p>
+		<ul>	
+			<li><p>runs on all operating systems.</p></li>
+			<li><p>doesn't require anything to install or download.</p></li>
+		</ul>
+		
+		<p>Cons</p>
+		<ul>	
+			<li><p>very hard to forward graphical programs.</p></li>
+		</ul>
+
+		<img style='height: 100%; width: 100%; object-fit: contain' src="wetty.png" alt="a cool GIF of mobaXterm"/>
+
+		<a href=http://defunctshell.duckdns.org:3000/wetty>Go to the Site Now!</a>
+		<hr>
+
+
 		<h4>openSSH-client</h4>
 		<p>As of a recent Microsoft Windows update, the openSSH client is now pre-installed on the Windows command line. This is not the only place it is found though, the openSSH client has always been pre-installed on macOS and is pre-installed on almost all Linux distributions.</p>
 
@@ -46,6 +68,8 @@
 		</ul>
 
 		<img style='height: 100%; width: 100%; object-fit: contain' src="openssh.png" alt="openSSH in the command line"/>
+		<hr>
+
 
 		<h4>PuTTY</h4>
 		<p>PuTTY is a free, open source, and cross platform SSH client which is available on Windows, macOS, and Linux. It has a graphical interface and supports X-forwarding for graphical programs (if you are running an X server).</p>
@@ -63,7 +87,9 @@
 		<img style='height: 100%; width: 100%; object-fit: contain' src="putty.png" alt="PuTTY in linux"/>
 
 		<a href=https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>Download PuTTY</a>
-		
+		<hr>
+
+
 		<h4>mobaXterm</h4>
 		<p>mobaXterm is a great client that has an abundance of features, the best being support for X servers on Windows. This means that you can run any graphical program on Windows easily.<p>
 		
@@ -84,28 +110,6 @@
 		<img style='height: 100%; width: 100%; object-fit: contain' src="mobaxterm.gif" alt="a cool GIF of mobaXterm"/>
 
 		<a href=https://mobaxterm.mobatek.net/download.html>Download mobaXterm</a>
-
-
-
-
-
-		<h4>Web Client</h4>
-		<p>The web client is by far the easiest way to access the server. Anyone with a JavaScript-enabled web browser can access the server using it.<p>
-		
-		<p>Pros</p>
-		<ul>	
-			<li><p>runs on all operating systems.</p></li>
-			<li><p>doesn't require anything to install or download.</p></li>
-		</ul>
-		
-		<p>Cons</p>
-		<ul>	
-			<li><p>very hard to forward graphical programs.</p></li>
-		</ul>
-
-		<img style='height: 100%; width: 100%; object-fit: contain' src="wetty.png" alt="a cool GIF of mobaXterm"/>
-
-		<a href=http://defunctshell.duckdns.org:3000/wetty>Go to the Site Now!</a>
 
 		<hr>
 		<a href=/index.html>Return to Home</a>
