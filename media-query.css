@@ -1,0 +1,22 @@
+@media (max-width: 715px) {
+	body {
+		margin: 0;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1em;
+		line-height: 1.428em;
+		color: #1e1e1e;
+		background-image: url("background.jpg");
+		-webkit-background-size: cover;
+  		background-size: cover;
+  		background-attachment: fixed;
+		padding: 0px;
+  		min-height: 100vh;
+	}
+	.container {
+	    	width: 95%;
+	    	margin: 10px auto;
+	    	background: white;
+	    	border-radius: 8px;
+	    	padding: 50px; 25px;
+	    	text-align: left;	
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Grant Handy">
+        <meta name="description" content="How to connect to the Defunct Shell Server website.">
+        <title>How to Connect</title>
+        <link rel="stylesheet" href="/mainstyle.css">
+    </head>
+    <body>
+        <div class="container">
+		<h2>How to Connect to the Server</h2>
+		<hr>
+		<p>To connect to the server you will need 3 things:</p>
+		<ol type="1">
+  			<li>An internet connection with port 22 or 3000 open</li>
+ 			<li>An SSH client</li>
+			<ul>
+				<li>openSSH</li>
+				<li>PuTTY</li>
+				<li>mobaXterm</li>
+				<li>web-client</li>
+			</ul>
+			<li>A computer</li>
+		</ol>
+		<h3>Internet Connection</h3>
+		<p>It is crucial that you have an internet connection with ports 22 or 3000 open. For most networks these ports are open by default, but if your system administrator is strict on what content you can access from your internet connection you will not be able to access the server. <strong>This means that most school or work networks are out of the picture.</strong></p>
+
+		<h3>SSH Clients</h3>
+		<p>There are many SSH clients out there for you to use, but it depends on your needs.</p>	
+
+		<h4>openSSH-client</h4>
+		<p>As of a recent Microsoft Windows update the openSSH client is now pre-installed on the windows command line, this is not the only place it is found though, the openSSH client has been pre-installed on macOS since the beginning and is pre-installed on almost all linux distributions.
+
+		<p>Pros</p>
+		<ul>	
+			<li><p>pre-installed on most operating systems.</p></li>
+		</ul>
+		
+		<p>Cons</p>
+		<ul>	
+			<li><p>not graphical, command line only.</p></li>
+		</ul>
+
+		<img style='height: 100%; width: 100%; object-fit: contain' src="openssh.png" alt="openSSH in the command line"/>
+
+		<h4>PuTTY</h4>
+		<p>PuTTY is a free and open source, cross platform SSH client that is available on macOS, Linux, and Windows. It has a graphical interface and does support X-forwarding for graphical programs (if you are running an X server)</p>
+		
+		<p>Pros</p>
+		<ul>	
+			<li><p>runs on almost every operating system.</p></li>
+		</ul>
+		
+		<p>Cons</p>
+		<ul>	
+			<li><p>the program must be downloaded to be run.</p></li>
+		</ul>
+
+		<img style='height: 100%; width: 100%; object-fit: contain' src="putty.png" alt="PuTTY in linux"/>
+
+		<a href=https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>Download PuTTY</a>
+		
+		<h4>mobaXterm</h4>
+		<p>mobaXterm is a great client that has many... many... features. The best being an X server for windows. This means that you can run any graphical program on windows easily.<p>
+		
+		<p>Pros</p>
+		<ul>	
+			<li><p>runs an X server for graphical programs.</p></li>
+			<li><p>it is a graphical program, very easy to use.</p></li>
+		</ul>
+		
+		<p>Cons</p>
+		<ul>	
+			<li><p>must be downloaded to be run.</p></li>
+			<li><p>not open-source, and is insecure.</p></li>
+			<li><p>payed for monthly, but there is a freeware version.</p></li>
+			<li><p>only available on windows.</p></li>
+		</ul>
+
+		<img style='height: 100%; width: 100%; object-fit: contain' src="mobaxterm.gif" alt="a cool GIF of mobaXterm"/>
+
+		<a href=https://mobaxterm.mobatek.net/download.html>Download mobaXterm</a>
+
+
+
+
+
+		<h4>Web Client</h4>
+		<p>The web client is by far the easiest way to access the server. Anyone with a javascript-enabled web browser can access the server in their own web browser.<p>
+		
+		<p>Pros</p>
+		<ul>	
+			<li><p>runs on all operating systems.</p></li>
+			<li><p>doesn't require anything to install or download.</p></li>
+		</ul>
+		
+		<p>Cons</p>
+		<ul>	
+			<li><p>very hard to forward graphical programs.</p></li>
+		</ul>
+
+		<img style='height: 100%; width: 100%; object-fit: contain' src="wetty.png" alt="a cool GIF of mobaXterm"/>
+
+		<a href=http://defunctshell.duckdns.org:3000/wetty>Go to the Site Now!</a>
+
+		<hr>
+		<a href=/index.html>Return to Home</a>
+	</div>
+    </body>
+</html>
