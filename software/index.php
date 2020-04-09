@@ -12,19 +12,19 @@
     </head>
     <body>
         <div class="container">
-        	<h2 align="center">Grant Handy's Personal Website</h2>
-
+        	<h2 align="center">Software Reccomendations</h2>
 		<hr>	
+		<div class="footer">
+			<div>
+				<a href="/">&larr; BACK</a>
+			</div>
+			
+			<div>
+				&copy; <?php echo date("Y"); ?>
+			</div>
 
-		<p align="left">Hi! My name is Grant Handy, and I am a student. My plan for this website is to post information about my projects and portfolio.</p>
-
-		<ul>
-			<li><a href="/software">Software Reccomendations</a></li>
-		</ul>
-
-		<hr>
-
-		<p align="center">&copy; <?php echo date("Y"); ?></p>
+			<div></div>
+		</div>
         </div>
     </body>
     <head>
@@ -58,6 +58,14 @@
 	    padding: 50px; 25px;
 	    text-align: left;
 	}
+
+	.footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 0px;	    
+	}
+
 
 /* *********************************
  *    Generic FlexBox Styling      *
@@ -563,7 +571,6 @@ font-weight: bold;
 font-stretch: normal;
 src: url('/core/woffs/equity_caps_b_regular.woff') format('woff');
 }
-
 	</style>
     </body>
 </html>
