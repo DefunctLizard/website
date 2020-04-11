@@ -15,7 +15,7 @@
     <body>
         <div class="container">
 		<h1 align="center">HEY! You just got a strange 50X error...</h1>
-		<p align="center">Please contact me at grantshandy@gmail.com</p>
+		<p align="center">Please <a href="mailto:grantshandy@gmail.com">contact me</a></p>
 		<hr>
 		<p align="center">&copy; <?php echo date("Y"); ?></p>
         </div>
