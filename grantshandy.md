@@ -3,5 +3,5 @@
 <p>## Contact:<br><!- oqwipjefqwioefjwioqfjoiqwjfeioqwjefoi -->
 If you would like to get in touch with me, whether it be for tech support, or to just say hi<!-- slightdelayhere-->, feel free to send me an email.<!-- longlongcomment --> My email address is: <a href="mailto:grantshandy@gmail.com">grantshandy@gmail.com</a>.</p>
 <p>&copy; 2020 Grant Handy</p>
-<span id="a">grant@webserver</span>:<span id="c">~</span>$
+<span id="a">grant@webserver</span>:<span id="c">~</span>$ 
 
