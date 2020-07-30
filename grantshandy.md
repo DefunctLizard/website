@@ -1,4 +1,4 @@
-<span id="a">grant@website</span>:<span id="c">~$</span> cat grantshandy.md<br/><br/>
+<span id="a">grant@webserver</span>:<span id="c">~/Documents/website</span>$ cat grantshandy.md<br/><br/>
 Hello! My name is Grant Handy.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p> I am a student, YouTube content creator, and programmer.</p><!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
 <p>## Links:</p><!- oqwipjefqwioefjwioqfjoiqwjfeioqwjefoi -->
 <p><a href="https://www.youtube.com/channel/UCeLzMaLtQXluv0Q2z94obFA/">Youtube</a><br><!-- owls --><a href="https://gitlab.com/DefunctLizard">GitLab</a><br><!-- owls --><a href="https://github.com/DefunctLizard/">GitHub</a><br><!-- owls --><a href="https://en.wikipedia.org/wiki/User:Grant_Handy">Wikipedia</a></p><!-- owls -->
