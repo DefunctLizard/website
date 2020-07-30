@@ -2,12 +2,19 @@
 <html>
 <body>
 
-<script>
-  var x = location.pathname;
-  document.getElementById("demo").innerHTML = x;
-</script>
+<p>Click the button to display the path name of the current URL.</p>
+
+<button onclick="myFunction()">Try it</button>
 
 <p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = location.pathname;
+  document.getElementById("demo").innerHTML = x;
+}
+window.onload = myFunction;
+</script>
 
 </body>
 </html>
