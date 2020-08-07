@@ -5,12 +5,13 @@
 }
 body {
 	margin: 0;
-	font-family: 'Overpass', sans-serif;	
+	font-family: manrope;
+	font-weight: medium;	
 	font-size: 1em;
 	line-height: 1.428em;
-	color: #1e1e1e;
+	color: #eee8d5;
 	-webkit-background-size: cover;
-	background-color: #0055A4;
+	background-color: #002B36;
   	background-size: cover;
   	background-attachment: fixed;
 	padding: 60px;
@@ -22,7 +23,7 @@ h2 {
 .container {
     width: 90%;
     margin: 1% auto;
-    background: white;
+    background: #002B36;
     border-radius: 3px;
     padding: 50px; 25px;
     text-align: left;
@@ -72,4 +73,19 @@ h2 {
     		padding: 50px; 25px;
     		text-align: left;	
 	}
+}
+
+@font-face {
+    font-family: "manrope";
+    src: url("/fonts/Manrope-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: "manrope";
+    src: url("/fonts/Manrope-Medium.woff") format('woff');
+    font-weight: medium;
+}
+@font-face {
+    font-family: "manrope";
+    src: url("/fonts/Manrope-Bold.woff") format('woff');
+    font-weight: bold;
 }
